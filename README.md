@@ -111,13 +111,13 @@ Asynchronous_FIFO/
 | Parameter | Description |
 |-----------|-------------|
 | Language | Verilog HDL |
-| Testbench | SystemVerilog |
+| Testbench | Verilog HDL |
 | FIFO Type | Asynchronous FIFO |
 | Synchronization | Gray Code + 2FF Synchronizer |
 | Memory | Dual-Port FIFO Memory |
 | Read Clock | Independent |
 | Write Clock | Independent |
-| Verification | Self-checking Testbench |
+
 
 ---
 
@@ -474,7 +474,7 @@ run -all
 | Verilog HDL | RTL Design |
 | SystemVerilog | Testbench |
 | ModelSim / QuestaSim | Functional Simulation |
-| EDA Playground | Online Simulation |
+| Vivado xilinks | Online Simulation |
 | Git & GitHub | Version Control |
 
 ---
@@ -537,11 +537,7 @@ Possible enhancements include:
 - Gray Code Pointer Synchronization
 - Two Flip-Flop Synchronizers
 - Full & Empty Flag Logic
-- Self-checking Verification Environment
-
----
 
 
 ---
 
-## ⭐ If you found this project helpful, consider giving it a star!
